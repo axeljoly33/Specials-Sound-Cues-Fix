@@ -1,0 +1,65 @@
+
+aux_buses = [
+]
+banks = {
+	Init = {
+		events = [
+		]
+	}
+	ssfx_enemy_chaos_sorcerer_magic_teleport = {
+		events = [
+			"ssfx_enemy_chaos_sorcerer_magic_teleport"
+		]
+	}
+	ssfx_enemy_packmaster_foley = {
+		events = [
+			"ssfx_enemy_packmaster_foley"
+		]
+	}
+}
+buses = [
+	"Master Audio Bus"
+	"Motion Factory Bus"
+]
+events = {
+	ssfx_enemy_chaos_sorcerer_magic_teleport = {
+		attenuation_max = 100
+		duration_max = 4.548209
+		duration_min = 3.648435
+		duration_type = "OneShot"
+		positioning = "3D"
+	}
+	ssfx_enemy_packmaster_foley = {
+		attenuation_max = 100
+		duration_max = 0.307664
+		duration_min = 0.191565
+		duration_type = "OneShot"
+		positioning = "3D"
+	}
+}
+parameters = [
+	"Acoustic_Banner"
+	"Anechoic"
+	"Brick"
+	"Carpet"
+	"Concrete"
+	"Cork_Tiles"
+	"Curtains"
+	"Drywall"
+	"Fabric"
+	"Mountain"
+	"ssfx_enemy_chaos_sorcerer_magic_teleport_bv"
+	"ssfx_enemy_chaos_sorcerer_magic_teleport_vv"
+	"ssfx_enemy_packmaster_foley_bv"
+	"ssfx_enemy_packmaster_foley_vv"
+	"Tile"
+	"Wood"
+	"Wood_Bright"
+	"Wood_Deep"
+]
+state_groups = {
+}
+switch_groups = {
+}
+triggers = [
+]

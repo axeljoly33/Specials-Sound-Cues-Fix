@@ -1,0 +1,15 @@
+mod = [
+	"Specials Sound Cues Fix"
+]
+
+package = [
+	"resource_packages/Specials Sound Cues Fix/Specials Sound Cues Fix"
+]
+
+lua = [
+	"scripts/mods/Specials Sound Cues Fix/*"
+]
+
+wwise_dep = [
+	"wwise/*"
+]

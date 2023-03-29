@@ -1,0 +1,9 @@
+
+win32 = {
+	banks = [
+		"wwise/ssfx_enemy_chaos_sorcerer_magic_teleport"
+	]
+	metadata = "wwise/project"
+	streams = [
+	]
+}

@@ -1,0 +1,9 @@
+
+win32 = {
+	banks = [
+		"wwise/ssfx_enemy_packmaster_foley"
+	]
+	metadata = "wwise/project"
+	streams = [
+	]
+}
